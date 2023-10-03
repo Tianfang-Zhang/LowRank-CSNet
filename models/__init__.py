@@ -1,7 +1,7 @@
-from .ctnet import *
+from .lrcsnet import *
 
 _models = {
-    'ctnet': CTNet,
+    'lrcsnet': LowRankCSNet,
 }
 
 
